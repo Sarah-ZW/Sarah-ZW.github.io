@@ -1,0 +1,140 @@
+<!Doctype html>
+<html>
+
+
+    <!--HEAD-->
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content="width=device-width">
+        <title>Sarah Z-W Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+   </head>
+
+    <!--BODY-->
+    <body class = "background">
+
+
+        <!--NAVBAR-->
+            <div class ="Navbar">
+                
+                <a class = "active" href="#Home">Home</a>
+                <a href = "#About">About</a>
+                <a href = "#Github">Github</a>
+                <a href = "#Contact">Contact</a>
+            </div>
+            <!--Breaks inserted to add space between navbar and the first heading-->
+            <br>
+            <br>
+
+        <!--BACKGROUND VIDEO-->
+        <div id ="Home">
+            <video autoplay loop muted id="Typing_Video">
+                <source src="media/v1.mp4" type="video/mp4">
+                Your browser does not support html5 video.
+            </video>
+        </div>
+
+        <!--VIDEO OVERLAY TEXT-->
+        <div class = "Video_Text">
+            <h1 class = "white-text">Sarah Zazzaro-Williams' Portfolio</h1>
+            <strong>
+                <p class = "center">
+                    <q>
+                        The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>
+                        No playwright, no stage director, no emporer, however powerful has ever exercised such absolute authority to arrange a stage or 
+                        <br>
+                        field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br>
+                    My name is Sarah, welcome to my portfolio website!  Here you will find information on my background and experience.
+                    <br>
+                    <br>
+                    Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--ABOUT SECTION-->
+        <div class = "Row" id = "About">
+            <!--LEFT COLUMN-->
+            <div class = "Column_2">
+                <img src="media/1.jpg" alt = "person typing code">
+            </div>
+            <div>
+                <!--RIGHT COLUMN-->
+                <div class = "Column_1">
+                    <h1>About</h1>
+                    <p>
+                        I am a software developer who loves to code! As a mother of two, I enjoy spending time
+                        with my wife and kids and being outside.
+                        <br>
+                        <br>
+                        I am a graduate of <a href="https://www.learningcodinganywhere.com" target="blank">The Tech Academy</a>'s
+                        JavaScript Developer Boot Camp and trained and experienced in the following web and programming langues:
+                        HTML, CSS, SQL, and advanced JavaScript.
+                        <br>
+                        <br>
+                        I am a full-stack developer and would love to work with you! <a href="#Contact">Contact</a> me below!
+                    </p>
+            </div>
+        </div>
+        </div>
+        <!--GITHUB SECTION-->
+        <div class="Row" id="Github">
+            <!--LEFT COLUMN-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub Profile here:
+                    <br>
+                    <p class ="center"><a href="https://github.com/Sarah-ZW" target = "blank">
+                    Sarah Z-W's GitHub</a>
+                    </p>
+                </p>
+            </div>
+
+            <!--RIGHT COLUMN-->
+            <div class="Column_2">
+                <a href="https://github.com/Sarah-ZW" target = "blank"> <img src = "media/2.jpg" alt = "GitHub log"></a>
+            </div>
+        </div>
+
+        <!--CONTACT SECTION-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column---->
+            <div class = "Column_2 Column_tall">
+                <img src="media/3.jpg" alt = "mailbox with trees">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+            
+            <form action="https://formspree.io/f/myylovkn" method="POST">
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type ="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text"id="Message" name="Message" placeholder="Please write your message here">
+                    <input type = "submit" value="SUBMIT">
+            </form>
+            </div>
+        </div>
+        
+
+        <!--FOOTER SECTION-->
+        <footer>
+           <p>
+               <p class="center">
+                   &copy Sarah Zazzaro-Williams
+                   <br>
+                   <a href="https://github.com/Sarah-ZW">Sarah Z-W Github</a>
+                   <br>
+               </p>
+           </p> 
+        </footer>
+    </body>
+</html>
