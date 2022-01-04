@@ -99,6 +99,17 @@ img:hover {
 	filter: grayscale(5%);  /* Brings back most of the image's color when hovered over */
 }
 
+#special {
+    width: 21%; 
+    height:19%;
+    float: left;
+    display: block;
+    margin-right: 20px;    
+}
+#projectspacing {
+    padding-top: 3px;
+}
+
 /* The @media rule is used in media queries to apply different styles for different media/types of devices */
 /* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
 @media screen and (max-width: 576px) {
